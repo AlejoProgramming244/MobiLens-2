@@ -1,0 +1,78 @@
+<head>
+    <title>Aprendiendo con P5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript" > </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" > </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" > </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">        
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript" > </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" > </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="header" id="header" onclick="cambiarFondo()">
+            <b><span>MOBILENS</span> <br>
+            
+            <span>MOBILENET VS GOOGLE LENS <br> </span></b> 
+            <span style="color: darkred;">Utiliza la aplicacion que esta a continuacion para modificarle a la imagen los pixeles que son de: ANCHO 300px, ALTO 423px, pasa el mouse sobre el título</span><br><br>
+            
+            <a href="https://www.iloveimg.com/es/redimensionar-imagen#resize-options,pixels">IloveIMG</a>
+        </div>
+
+        <br><br>
+
+        <div class="home ">
+
+            <b>
+                <span>
+                    <p class="imgP">Imagen de prueba:</p>
+
+                    <p class="btn btn-success BTN_Imp">Google Lens dice que es: Crocs</p>
+                    <p class="btn btn-success BTN_Imp">MobileNet dice que es: Zapatos</p>
+                </span>
+
+                <h2 class="h2">Resultado: <br><br> Google Lens es más preciso.</h2>
+
+                <div id="image"></div>
+
+                <br><br>
+                
+            </b>
+
+        </div>
+
+        <br><br><br>
+
+        <div class="src">
+            <b>
+                <p>Introduce la src de tu imagen aquí: <br><br>
+                    <input type="text" placeholder="Src de la imagen" width="200px" height="15px" id="input"> <br><br>
+                    <button class="btn btn-info" style="border-radius: 60px;" onclick="Isrc()">Intoducir src de la imagen</button>
+                </p>
+            </b>
+        </div>
+
+        <br><br>
+
+        <p><b>Conclusión</b><br>Utilize Crocs, Teléfonos, Audifonos, Mouse y Cubo rubik y Google Lens acerto 4/5 mientras que MobileNet no. <br> en mi opinion gana Google Lens</p>
+
+        <br><br><br><br><br><br><br><br>
+
+    </center>
+    <script src="main.js"></script>
+</body>
+
+<footer class="FootManualGR">
+
+    <span class="FootManualGR btn btn_secondary">Creado por AlemichuProgramming</span>
+
+</footer>

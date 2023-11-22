@@ -1,0 +1,187 @@
+
+.header 
+{
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 80%;
+    height: 20%;
+    color: black;
+    background-color: salmon;
+    transition: color 0.5s ease, width 0.5s ease, height 0.5s ease; /* Eliminé la transición de background-color aquí */
+    overflow: hidden;
+}
+
+.header:hover 
+{
+    width: 95%;
+    height: 30%;
+    color: white;
+    background-color: salmon; /* Agregué el color de fondo aquí para mantenerlo constante al hacer hover */
+}
+
+.header b span:nth-child(1) 
+{
+    display: block;
+    font-size: 50px; /* Tamaño de fuente inicial para el primer span */
+    font-family: 'Courier New', Courier, monospace;
+    transition: font-size 0.5s ease, font-family 0.5s ease;
+}
+
+.header b span:nth-child(2) 
+{
+    display: block;
+    font-size: 30px; /* Tamaño de fuente inicial para el segundo span */
+    transition: font-size 0.5s ease;
+}
+
+
+.header:hover b span:nth-child(1) 
+{
+    font-size: 60px; /* Tamaño de fuente al hacer hover para el primer span */
+}
+
+.header:hover b span:nth-child(2) 
+{
+    font-size: 40px; /* Tamaño de fuente al hacer hover para el segundo span */
+}
+
+.home 
+{
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 85%;
+    height: 80%;
+    color: green;
+    background-color: lightskyblue;
+    transition: color 0.5s ease, width 0.5s ease, height 0.5s ease; /* Eliminé la transición de background-color aquí */
+    overflow: hidden;
+}
+
+.home:hover
+{
+    width: 98%;
+    height: 92%;
+    color: black;
+    background-color: lightskyblue; /* Agregué el color de fondo aquí para mantenerlo constante al hacer hover */
+}
+
+.FootManualGR
+{
+    bottom: 0;
+    background-color: gray;
+    float: none;
+    position: fixed;
+}
+
+.btn_secondary
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-shadow: 15px 5px 10px black;
+    color: white;
+    background-color: gray;
+    height: 40px;
+    font-size: 20px;
+    transition:height 0.3s ease, backgroud-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.btn_secondary:hover
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    text-shadow: 15px 5px 10px black;
+    height: 65px;
+    background-color: lightgray;
+    color: black;
+}
+
+.BTN_Imp
+{
+    border-radius: 60px;
+    transition: font-size 0.5s ease, background-color 0.5s ease, width 0.5s ease, height 0.5s ease, padding-top 0.5s ease;
+    width: 20%;
+    height: 8%;
+    padding-top: 2px;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.BTN_Imp:hover
+{
+    background-color: salmon;
+    font-size: 20px;
+    width: 25%;
+    height: 12%;
+    padding-top: 25px;
+}
+
+hr
+{
+    width: 65%;
+    float: right;
+    height: 0px;
+    border: 2px solid black;
+    margin-bottom: 500px;
+}
+
+.h2
+{
+    margin-left: 435px;
+}
+
+.h1
+{
+    top: 0;
+    margin-top: 60px;
+}
+
+#image1
+{
+    float: left;
+    margin-bottom: 500px;
+}
+
+#image
+{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 500px;
+}
+
+#input
+{
+    border-radius: 60px;
+    width: 95%;
+    height: 35%;
+}
+
+.imgP
+{
+    float: left;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+.src
+{
+    background-color: skyblue;
+    font-size: 15px;
+    border-radius: 100px;
+    width: 60%;
+    height: 25%;
+    transition:background-color 0.5s ease, font-size 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.src:hover
+{
+    background-color: lightblue;
+    font-size: 20px;
+    width: 75%;
+    height: 30%;
+}
